@@ -1,0 +1,50 @@
+body {
+  height: 100vh;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: aliceblue;
+}
+
+.container {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  border-radius: 10px;
+}
+
+#form {
+  width: 250px;
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 10px;
+}
+
+input{
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+}
+.style {
+  font-size: 12px;
+  color: red;
+  margin-top: 2px;
+}
+
+button{
+  width: 40%;
+  background-color: azure;
+  border-radius: 5px;
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  margin-top: 10px;
+  padding: 5px;
+}

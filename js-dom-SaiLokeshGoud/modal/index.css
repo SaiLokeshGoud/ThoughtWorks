@@ -1,0 +1,41 @@
+body {
+  background-color: azure;
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#modal {
+  display: none;
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  width: 450px;
+}
+
+input {
+  margin-bottom: 10px;
+  width: 250px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#close {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  padding: 5px 10px;
+  float: right;
+}

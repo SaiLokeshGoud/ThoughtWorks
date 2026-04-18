@@ -1,0 +1,111 @@
+* {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .WelcomePage {
+    background-color: #fbf6ec;
+    height: 100vh;
+    width: 100%;
+  }
+  
+  .WelcomePage nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-right: 25px;
+    padding-left: 100px;
+    border-bottom: 1px solid #ccc;
+    position: sticky;
+    top: 0;
+  }
+
+  .WelcomePageContent{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid black;
+  }
+
+  .WelcomePageContent img {
+    height: 600px;
+  }
+
+  .WelcomePageContent h2 {
+    font-size: 80px;
+    font-weight: bold;
+  }
+
+  .WelcomePageContent div {
+    margin-left: 170px;
+  }
+
+  .WelcomePageContent p {
+    font-size: 25px;
+  }
+  
+  .pageTitle {
+    font-size: 30px;
+  }
+
+  .loginButton {
+    background-color: black;
+    color: white;
+    height: 40px;
+    width: 120px;
+    font-size: 13px;
+    font-weight: bold;
+    border-radius: 25px;
+    border: none;
+    cursor: pointer;
+  }
+
+  .pageHeader {
+    margin-left: 50px;
+    cursor: pointer;
+  }
+
+  .welcome-page-content{
+    font-family: gt-super, Georgia, Cambria, "Times New Roman", Times, serif;
+    font-size: 100px;
+  }
+
+  .Footer{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+
+.profile-avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 2px solid #ddd;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.profile-write-container{
+  display: flex;
+  justify-content: space-between;
+  width: 250px;
+}
+
+.profile-write-container button {
+  cursor: pointer;
+}
+
+.draft-title{
+  font-size: 20px;
+}
+
+.published-on{
+  display: flex;
+  justify-content: end;
+  font-size: 13px;
+  font-weight: 500;
+  color: #888888;
+  height: 20px;
+}

@@ -1,0 +1,39 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: azure;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px 40px;
+  border-radius: 10px;
+}
+
+#timer {
+  font-size: 32px;
+  padding: 10px;
+  margin: 20px;
+}
+
+.timerButtons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:disabled {
+  background-color: #dedede;
+  cursor: not-allowed;
+}
