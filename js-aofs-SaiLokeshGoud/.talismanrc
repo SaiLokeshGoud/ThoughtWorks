@@ -1,0 +1,4 @@
+fileignoreconfig:
+- filename: even_odd.js
+  checksum: 4d859eaa588031c970a159b3c406948b3952b7f7a566e5213ce97bb749cef8e4
+version: "1.0"
